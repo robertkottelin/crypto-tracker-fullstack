@@ -19,7 +19,7 @@ import UserSidebar from "./Authentication/UserSidebar";
 const useStyles = makeStyles((theme) => ({
   title: {
     flex: 1,
-    color: "gold",
+    color: "darkblue",
     fontFamily: "Montserrat",
     fontWeight: "bold",
     cursor: "pointer",
@@ -51,7 +51,7 @@ function Header() {
               variant="h6"
               className={classes.title}
             >
-              Crypto Hunter
+              Crypto Tracker
             </Typography>
             <Select
               variant="outlined"
