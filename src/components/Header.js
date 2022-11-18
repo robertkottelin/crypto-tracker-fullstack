@@ -65,7 +65,6 @@ function Header() {
               <MenuItem value={"EUR"}>EUR</MenuItem>
               <MenuItem value={"BTC"}>BTC</MenuItem>
               <MenuItem value={"ETH"}>ETH</MenuItem>
-
             </Select>
 
             {user ? <UserSidebar /> : <AuthModal />}
