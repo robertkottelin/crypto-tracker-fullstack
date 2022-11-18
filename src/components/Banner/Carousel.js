@@ -48,7 +48,7 @@ const Carousel = () => {
         <img
           src={coin?.image}
           alt={coin.name}
-          height="80"
+          height="40"
           style={{ marginBottom: 10 }}
         />
         <span>
@@ -56,7 +56,7 @@ const Carousel = () => {
           &nbsp;
           <span
             style={{
-              color: profit > 0 ? "rgb(14, 203, 129)" : "red",
+              color: profit > 0 ? "green" : "red",
               fontWeight: 500,
             }}
           >
@@ -73,10 +73,10 @@ const Carousel = () => {
 
   const responsive = {
     0: {
-      items: 2,
+      items: 3,
     },
     512: {
-      items: 4,
+      items: 5,
     },
   };
 
